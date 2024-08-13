@@ -6,12 +6,17 @@
   resize_down = <Shift>Down
   resize_left = <Shift>Left
   resize_right = <Shift>Right
+  toggle_zoom = <Primary><Shift>z
+  scaled_zoom = <Primary><Shift>x
 [profiles]
   [[default]]
-    background_darkness = 0.95
+    background_darkness = 1.0
     background_type = transparent
-    palette = "#1f2229:#d41919:#5ebdab:#fea44c:#367bf0:#9755b3:#49aee6:#e6e6e6:#198388:#ec0101:#47d4b9:#ff8a18:#277fff:#962ac3:#05a1f7:#ffffff"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
     use_theme_colors = True
+    title_transmit_fg_color = "#77767b"
+    title_transmit_bg_color = "#000000"
+    title_inactive_bg_color = "#77767b"
 [layouts]
   [[default]]
     [[[window0]]]
